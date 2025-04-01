@@ -54,10 +54,10 @@
     <main>
         <div id="contact" class="flex">
 
-            <form action="#" method="submit" id="formulario">
-                <label for="nome">Nome: </label>
+            <form action="#" method="submit" id="formulario" novalidate>
+                <label for="name">Nome: </label>
                 <input id="name" type="text" name="name" placeholder="Digite seu nome" required />
-                <span id="txtNome"></span>
+                <span id="txtName"></span>
 
                 <label for="email">Email: </label>
                 <input id="email" type="email" name="email" placeholder="Digite seu email" required />
@@ -66,11 +66,11 @@
                 <label for="subject">Assunto: </label>
                 <input id="subject" type="text" name="subject" placeholder="Digite o título da mensagem" required />
                 <span id="txtSubject"></span>
-
+                
                 <label for="message">Mensagem: </label>
-                <textarea id="message" name="message" placeholder="Digite sua mensagem" required>
-                </textarea>
-
+                <textarea id="message" name="message" placeholder="Digite sua mensagem" required></textarea>
+                <span id="txtMessage"></span>
+                
                 <button type="submit">Enviar</button>
             </form>
 
@@ -89,28 +89,28 @@
         </div>
     </main>
 
-<!-- Rodapé da Página (footer) -->
-<footer class="flex">
+    <!-- Rodapé da Página (footer) -->
+    <footer class="flex">
 
-    <!-- Seção de Contato - Redes Sociais-->
-    <section id="redes_sociais">
+        <!-- Seção de Contato - Redes Sociais-->
+        <section id="redes_sociais">
 
-        <a href="">
-            <img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
-        </a>
-        <a href="">
-            <img src="assets/img/github.svg" alt="Github" class="social_icon"/>
-        </a>
-        <a href="">
-            <img src="assets/img/instagram.svg" alt="Instagram" class="social_icon"/>
-        </a>
+            <a href="">
+                <img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
+            </a>
+            <a href="">
+                <img src="assets/img/github.svg" alt="Github" class="social_icon"/>
+            </a>
+            <a href="">
+                <img src="assets/img/instagram.svg" alt="Instagram" class="social_icon"/>
+            </a>
 
-    </section>
+        </section>
 
-    <h3>Feito com 🧡 por Generation Brasil - 2024</h3>
+        <h3>Feito com 🧡 por Generation Brasil - 2024</h3>
 
-</footer>
+    </footer>
 
+    <script src="./assets/js/script.js"></script>
 </body>
-
 </html>
